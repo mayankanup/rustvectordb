@@ -1,0 +1,36 @@
+# Rust / Cargo
+target/
+Cargo.lock
+
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs / Editors
+.idea/
+.vscode/
+*.iml
+
+# Docker
+*.pid
+*.seed
+
+# Benchmarks / profiling
+criterion/
+
+# Generated files
+scripts/*.sh~
